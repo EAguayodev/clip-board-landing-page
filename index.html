@@ -17,27 +17,35 @@
   <!-- header -->
   <header>
     <div class="box-headings">
-      <img src="images/logo.svg" alt="clipboard logo">
-      <h1>A history of everything you copy</h1>
-      <p>Clipboard allows you to track and organize everything you
-        copy. Instantly access your clipboard on all your devices.</p>
-      <button class="btn btn-download-ios">Download for iOS</button>
-      <button class="btn btn-download-mac">Download for Mac</button>
+      <a href="index.html">
+        <img class="logo" src="images/logo.svg" alt="clipboard logo">
+      </a>
+      <div class="heading-column--box">
+        <div>
+          <h1>A history of everything you copy</h1>
+          <p>Clipboard allows you to track and organize everything you
+            copy. Instantly access your clipboard on all your devices.</p>
+        </div>
+        <div>
+          <button class="btn btn-download-ios">Download for iOS</button>
+          <button class="btn btn-download-mac">Download for Mac</button>
+        </div>
+      </div>
     </div>
   </header>
   <!--/ header  -->
 
   <!-- snippets -->
   <div class="snippets-container">
+    <h2>Keep track of your snippets</h2>
+    <p>Clipboard instantly stores any item you copy in the cloud,
+      meaning you can access your snippets immediately on all your
+      devices. Our Mac and iOS apps will help you organize everything.</p>
     <div class="snippets-row">
-      <h3>Keep track of your snippets</h3>
-      <p>Clipboard instantly stores any item you copy in the cloud,
-        meaning you can access your snippets immediately on all your
-        devices. Our Mac and iOS apps will help you organize everything.</p>
       <div>
-        <img src="images/image-computer.png" alt="image computer">
+        <img class="cmp-image" src="images/image-computer.png" alt="image computer">
       </div>
-      <div>
+      <div class="snippet-box">
         <div>
           <h3>Quick Search</h3>
           <p>Easily search your snippets by content, category, web address, application, and more.</p>
@@ -56,12 +64,16 @@
   <!--/ snippets -->
 
   <!-- clipboard access -->
-  <div>
+  <div class="access-container">
     <div class="access-row">
-      <h3>Access Clipboard anywhere</h3>
-      <p>Whether you’re on the go, or at your computer, you can access all your Clipboard
-      snippets in a few simple clicks.</p>
-      <img src="images/image-devices.png" alt="devices image">
+      <div>
+        <h3>Access Clipboard anywhere</h3>
+        <p>Whether you’re on the go, or at your computer, you can access all your Clipboard
+        snippets in a few simple clicks.</p>
+      </div>
+      <div>
+        <img class="devices-image" src="images/image-devices.png" alt="devices image">
+      </div>
     </div>
   </div>
   <!--/ clipboard access -->
@@ -73,21 +85,21 @@
         <h3>Supercharge your workflow</h3>
         <p>We’ve got the tools to boost your productivity.</p>
       </div>
-      <div>
+      <div class="workflow-list">
         <div>
-          <img src="images/icon-blacklist.svg" alt="blacklist image">
-          <p>Create blacklists</p>
-          <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+          <img class="icon-flow__images" src="images/icon-blacklist.svg" alt="blacklist image">
+          <p class="workflow-heading">Create blacklists</p>
+          <p class="workflow-description">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
         </div>
         <div>
-          <img src="images/icon-text.svg" alt="text image snippets">
-          <p>Plain text snippets</p>
-          <p>Remove unwanted formatting from copied text for a consistent look.</p>
+          <img class="icon-flow__images" src="images/icon-text.svg" alt="text image snippets">
+          <p class="workflow-heading">Plain text snippets</p>
+          <p class="workflow-description">Remove unwanted formatting from copied text for a consistent look.</p>
         </div>
         <div>
-          <img src="images/icon-preview.svg" alt="sneak peak img">
-          <p>Sneak preview</p>
-          <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+          <img class="icon-flow__images" src="images/icon-preview.svg" alt="sneak peak img">
+          <p class="workflow-heading">Sneak preview</p>
+          <p class="workflow-description">Quick preview of all snippets on your Clipboard for easy access.</p>
         </div>
       </div>
     </div>
@@ -98,41 +110,91 @@
    <div class="companies-container">
     <div class="companies-row">
       <div>
-        <img src="images/logo-google.png" alt="Google">
+        <img class="company-logo" src="images/logo-google.png" alt="Google">
       </div>
       <div>
-        <img src="images/logo-ibm.png" alt="IBM">
+        <img class="company-logo" src="images/logo-ibm.png" alt="IBM">
       </div>
       <div>
-        <img src="images/logo-microsoft.png" alt="Microsoft">
+        <img class="company-logo" src="images/logo-microsoft.png" alt="Microsoft">
       </div>
       <div>
-        <img src="images/logo-hp.png" alt="Hewlett Packard">
+        <img class="company-logo" src="images/logo-hp.png" alt="Hewlett Packard">
       </div>
       <div>
-        <img src="images/logo-vector-graphics.png" alt="Vector Graphics">
+        <img class="company-logo" src="images/logo-vector-graphics.png" alt="Vector Graphics">
       </div>
     </div>
    </div>
   <!--/ companies -->
 
   <!-- Download options -->
+   <div class="download-container">
+    <div class="download-row">
+      <div>
+        <h3>Clipboard for iOS and Mac OS</h3>
+        <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+        and you’re ready to start adding to your clipboard.</p>
+      </div>
+      <div>
+        <button class="btn btn-download-ios">Download for iOS</button>
+        <button class="btn btn-download-mac">Download for Mac</button>
+      </div>
+    </div>
+   </div>
   <!--/ Download options -->
-  Clipboard for iOS and Mac OS
-
-  Available for free on the App Store. Download for Mac or iOS, sync with iCloud
-  and you’re ready to start adding to your clipboard.
-
-  Download for iOS
-  Download for Mac
-
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide
-
-  <footer>
+ <footer>
+  <div class="footer-row">
+    <div>
+      <a href="index.html">
+        <img src="images/logo.svg" alt="clipboard logo">
+      </a>
+    </div>
+    <div>
+      <ul class="foot-list">
+        <li>
+          <a href="#">
+            FAQs
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul class="foot-list">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Press Kit</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="foot-list">
+        <li><a href="#">Install Guide</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="foot-list">
+        <li>
+          <a href="#">
+            <img src="images/icon-facebook.svg" alt="facebook">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/icon-twitter.svg" alt="twitter">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/icon-instagram.svg" alt="instagram">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
   </footer>
 </body>
 </html>

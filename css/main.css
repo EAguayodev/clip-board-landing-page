@@ -7,9 +7,241 @@
 :root{
     --strong-cyan: hsl(171, 66%, 44%);
     --light-blue: hsl(233, 100%, 69%);
-    --dark-grayish-blue: hsl(210, 10%, 33%); 
+    --dark-grayish-blue: hsl(212, 10%, 33%); 
     --grayish-blue: hsl(201, 11%, 66%);
 
     /* font */
     --bai-jamjuree-serif: "Bai Jamjuree", serif;
+}
+
+body{
+    font-family: var(--bai-jamjuree-serif);
+}
+
+p{
+    color: var(--grayish-blue);
+}
+
+header{
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.5rem;
+}
+
+.logo{
+    margin-left: 16rem;
+}
+
+header h1{
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+    text-align: center;
+    font-size: 2.875rem;
+    margin-bottom: 30px;
+}
+
+header p{
+    color: var(--grayish-blue);
+    text-align: center;
+    margin-bottom: 30px;
+    width: 37rem;
+}
+
+.heading-column--box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 1.125rem;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-download-ios {
+    background-color: var(--strong-cyan);
+    color: #ffffff;
+}
+
+.btn-download-ios:hover{
+    background-color: hsl(171, 73%, 63%);;
+}
+
+.btn-download-mac {
+    background-color: var(--light-blue);
+    color: #ffffff;
+}
+
+.btn-download-mac:hover{
+    background-color: hsl(233, 70%, 73%);
+}
+
+
+/* snippet style start */
+.snippets-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 92px 0;
+}
+
+.snippets-container h2{
+    color: var(--dark-grayish-blue);
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+.snippets-container p{
+    text-align: center;
+    margin-bottom: 5rem;
+    width: 45.625rem;
+}
+
+.snippet-box h3{
+    color: var(--dark-grayish-blue);
+    margin-bottom: 0.5rem;
+}
+
+.snippet-box p{
+    text-align: left;
+    margin-bottom: 2.5rem;
+    width: 21.875rem;
+}
+
+.snippets-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cmp-image{
+    position: relative;
+    right: 14rem;
+}
+
+/* snippet style end */
+
+/* access section styles start */
+.access-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.access-row h3{
+    color: var(--dark-grayish-blue);
+    text-align: center;
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.access-row p{
+    margin-bottom: 4rem;
+    text-align: center;
+    width: 41rem;
+}
+/* access section styles end */
+
+/* workflow styles start */
+.workflow-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 9rem;
+}
+
+.workflow-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.workflow-list > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.workflow-row h3{
+    color: var(--dark-grayish-blue);
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+.workflow-row p {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.icon-flow__images {
+    width: 36px;
+    height: 32px;
+}
+
+.workflow-heading {
+    color: var(--dark-grayish-blue);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.workflow-description {
+    margin-bottom: 0rem;
+    width: 21.875rem;
+}
+/* workflow styles end */
+
+/* company logo styling start */
+.companies-row {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 7.5rem;
+}
+
+.company-logo {}
+/* company logo styling end */
+
+.download-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download-row, h3, p{
+    text-align: center;
+}
+
+.download-row h3{
+    color: var(--dark-grayish-blue);
+    font-size: 2.25rem;
+}
+
+.download-row p {
+    color: var(--dark-grayish-blue);
+    margin-bottom: 2rem;
+    width: 40rem;
+}
+
+footer{
+    background-color: var(--grayish-blue);
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot-list {
+
 }
